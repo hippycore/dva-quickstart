@@ -1,0 +1,38 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "roadhog server",
+    "build": "roadhog build",
+    "lint": "eslint --ext .js src test",
+    "precommit": "npm run lint"
+  },
+  "theme": {
+    "primary-color": "#1DA57A",
+    "link-color": "#1DA57A",
+    "border-radius-base": "2px"
+  },
+  "dependencies": {
+    "antd": "^3.23.4",
+    "dva": "^2.4.1",
+    "dva-loading": "^3.0.14",
+    "dva-model-extend": "^0.1.2",
+    "encodeurl": "^1.0.2",
+    "luxon": "^1.19.3",
+    "path-to-regexp": "^3.1.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-plugin-dva-hmr": "^0.3.2",
+    "babel-plugin-import": "^1.12.2",
+    "eslint": "^4.14.0",
+    "eslint-config-umi": "^0.1.1",
+    "eslint-plugin-flowtype": "^2.34.1",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "husky": "^0.12.0",
+    "redbox-react": "^1.4.3",
+    "roadhog": "^2.5.0-beta.4"
+  }
+}
